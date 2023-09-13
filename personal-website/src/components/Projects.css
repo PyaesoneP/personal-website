@@ -10,8 +10,12 @@
   box-shadow: 1px 1px 10px 1px grey;
 }
 
+.project-card:hover {
+  transform: scale(1.03);
+}
+
 .project-card img {
-  aspect-ratio: 16/10;
+  aspect-ratio: 16/9;
   width: 100%;
 }
 
